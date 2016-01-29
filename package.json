@@ -7,8 +7,10 @@
     "build": "mkdir -p lib && babel ./src/index.js --out-file ./lib/index.js",
     "watch": "mkdir -p lib && babel ./src/index.js --watch --out-file ./lib/index.js"
   },
+  "dependencies": {
+    "react-router-redux": "2.1.0"
+  },
   "peerDependencies": {
-    "react-router-redux": "2.1.0",
     "react-router": "2.0.0-rc5"
   },
   "author": "Lari Hoppula",
