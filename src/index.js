@@ -5,7 +5,7 @@ export * from 'react-router-redux'
 
 const initialState = {
   location: undefined,
-  params: undefined
+  params: {}
 }
 
 export function syncParams(store, routes, history) {
@@ -17,7 +17,7 @@ export function syncParams(store, routes, history) {
           type: UPDATE_LOCATION_WITH_PARAMS,
           payload: {
             location: location,
-            params: state.params
+            params: state ? state.params : {}
           }
         })
       }
