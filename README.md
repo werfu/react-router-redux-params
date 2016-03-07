@@ -1,8 +1,8 @@
 # react-router-redux-params
 
-Provides extra methods for [react-router-redux](https://github.com/rackt/react-router-redux) which store [react-router](https://github.com/rackt/react-router) route params in addition to history location object.
+Provides extra methods for [react-router-redux](https://github.com/reactjs/react-router-redux) which store [react-router](https://github.com/reactjs/react-router) route params in addition to history location object.
 
-You won't need this if your only use case is accessing route params inside your components, react-router already provides params as props. This is meant for usage outside component tree.
+You won't need this if you're only accessing route params inside your components, react-router already provides params as prop. This is meant for usage outside component tree, for example with [refire](https://github.com/hoppula/refire).
 
 **NOTE** This hasn't been tested with [redux-devtools](https://github.com/gaearon/redux-devtools), breakage might ensue.
 
@@ -45,3 +45,7 @@ ReactDOM.render(
   document.getElementById('mount')
 )
 ```
+
+## License
+
+MIT
