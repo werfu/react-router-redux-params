@@ -19,7 +19,7 @@
     "url": "https://github.com/hoppula/react-router-redux-params"
   },
   "dependencies": {
-    "react-router-redux": "3.0.0"
+    "react-router-redux": "4.0.0"
   },
   "peerDependencies": {
     "react-router": "^2.0.0"
